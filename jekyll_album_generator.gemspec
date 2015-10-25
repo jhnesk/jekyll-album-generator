@@ -6,6 +6,8 @@ Gem::Specification.new do |spec|
 	spec.authors     = ["Johan Ask"]
 	spec.email       = 'jhnesk@gmail.com'
 	spec.homepage    = 'https://github.com/jhnesk/jekyll-album-generator'
-	spec.files       = ["lib/album_generator.rb"]
+	spec.files       = ["lib/jekyll_album_generator.rb"]
 	spec.licenses    = ["GPL-3.0"]
+
+	spec.add_runtime_dependency 'exifr', '~> 1.2'
 end
